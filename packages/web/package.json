@@ -6,6 +6,7 @@
   "typings": "dist/index.d.ts",
   "private": true,
   "scripts": {
+    "start": "tsc -b --watch",
     "build": "tsc -b",
     "build-v": "vite build",
     "build-w": "tsc -b --watch ",
