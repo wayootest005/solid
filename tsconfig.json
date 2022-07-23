@@ -1,0 +1,13 @@
+{
+  "compileOnSave": false,
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "tsBuildInfoFile": "build/tsbuildinfo/tsconfig.tsbuildinfo"
+  },
+  "references": [
+    {
+      "path": "apps/solid/tsconfig.json"
+    }
+  ]
+}
