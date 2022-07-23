@@ -6,7 +6,7 @@
   "typings": "dist/index.d.ts",
   "private": true,
   "scripts": {
-    "start": "tsc -b --watch",
+    "dev": "tsc -b --watch",
     "build": "tsc -b",
     "build-v": "vite build",
     "build-w": "tsc -b --watch ",
@@ -21,7 +21,6 @@
   },
 
   "devDependencies": {
-    "vite": "^3.0.0",
     "@types/node": "18.0.6",
     "@typescript-eslint/eslint-plugin": "~5.30.7",
     "@typescript-eslint/parser": "~5.30.7",
