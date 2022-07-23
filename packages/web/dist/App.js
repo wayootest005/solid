@@ -6,8 +6,6 @@ import * as tsplus_module_4 from "@tsplus/stdlib/collections/Chunk/map";
 import * as tsplus_module_5 from "@effect/core/io/Effect/operations/map";
 import * as tsplus_module_6 from "@effect/core/io/Effect/operations/struct";
 import * as tsplus_module_7 from "@effect/core/io/Effect/operations/runtime";
-import "@effect/core/global";
-import '@tsplus/stdlib/global';
 const f = (n) => n.toString();
 const stream = tsplus_module_1.make(1, 2, 3, 4, 5);
 const program = tsplus_module_6.struct({

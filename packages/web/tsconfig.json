@@ -5,7 +5,7 @@
     "tsPlusEnabled": true,
     "tsPlusConfig": "../../tsplus.config.json",
     "rootDir": "src",
-    "outDir": "build-tsplus",
+    "outDir": "dist",
   },
 
   "include": ["src/**/*.ts"],

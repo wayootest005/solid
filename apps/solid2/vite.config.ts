@@ -10,7 +10,5 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
-  optimizeDeps: {
-    exclude: ['@effect/core','@tsplus/stdlib']
-  }
+
 });

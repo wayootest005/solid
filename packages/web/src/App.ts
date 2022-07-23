@@ -1,5 +1,5 @@
-import "@effect/core/global";
-import '@tsplus/stdlib/global';
+import type {} from "@effect/core/global";
+import type {} from '@tsplus/stdlib/global';
 
 
 const f = (n: number) => n.toString()

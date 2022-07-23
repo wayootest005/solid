@@ -4,7 +4,7 @@
     "dev": "turbo run dev --filter=./apps/solid2",
     "dev:b": "turbo run build --filter=./apps/*",
     "dev:s": "turbo run serve --filter=./apps/*",
-    "build": "turbo run build --filter=./packages/* --parallel --no-cache",
+    "build": "turbo run build --filter=./packages/* --parallel",
     "lint": "turbo run lint",
     "postinstall": "tsplus-install"
   },
