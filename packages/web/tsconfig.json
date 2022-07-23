@@ -1,24 +1,14 @@
 {
-  "extends": "rootö/tsconfig.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "tsBuildInfoFile": "build/tsbuildinfo/tsconfig.tsbuildinfo",
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
-    "isolatedModules": true,
+    "tsPlusEnabled": true,
+    "tsPlusConfig": "../../tsplus.config.json",
     "rootDir": "src",
-    "outDir": "dist",
-    "composite": true,
-    "incremental": true
-
-    
+    "outDir": "build-tsplus",
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+
+  "include": ["src/**/*.ts"],
   "exclude": ["**/*.spec.ts", "**/*.test.ts"],
  
 }
