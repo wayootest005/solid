@@ -11,5 +11,5 @@ const program = Effect.struct({
 
 program.unsafeRunPromise()
 //console.log(actual);
-
-export const test = 5;
+console.log("tedsddt")
+export const test = 7;

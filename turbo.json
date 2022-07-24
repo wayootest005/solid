@@ -2,7 +2,16 @@
   "pipeline": {
     "start": {
       "dependsOn": [
-        "^build"
+        "^start"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**"
+      ]
+    },
+    "app:dev": {
+      "dependsOn": [
+        "^app:dev"
       ],
       "outputs": [
         "dist/**",
@@ -14,17 +23,7 @@
         "^build"
       ],
       "outputs": [
-        "dist/**",
-        ".next/**"
-      ]
-    },
-    "build-tsplus-watch": {
-      "dependsOn": [
-        "^build"
-      ],
-      "outputs": [
-        "dist/**",
-        ".next/**"
+        "dist/**"
       ]
     },
     "lint": {
@@ -32,11 +31,10 @@
     },
     "dev": {
       "dependsOn": [
-        "^build"
+        "^dev"
       ],
       "outputs": [
-        "dist/**",
-        ".next/**"
+        "dist/**"
       ]
     }
   }

@@ -14,5 +14,6 @@ const program = tsplus_module_6.struct({
 }, fileName_1 + ":7:30");
 tsplus_module_7.unsafeRunPromise(program, fileName_1 + ":12:25");
 //console.log(actual);
-export const test = 5;
+console.log("tedsddt");
+export const test = 7;
 //# sourceMappingURL=App.js.map
